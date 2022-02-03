@@ -1,0 +1,5 @@
+Q: How would you design this code to include a new shape named Circle?
+
+A: I would do the following: 
+	1. Create a new subclass named Circle extending Shape and containing only the data member Radius. A circle has 1 side, 
+		so I would call the super class constructor with super(1). 
