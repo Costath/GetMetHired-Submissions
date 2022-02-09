@@ -14,17 +14,13 @@ public class FactorialUsingWhile {
 		System.out.print("Please, enter the number to calculate the factorial: ");
 		n = input.nextInt();
 		
-		int total;
+		int total = 1;
 		
-		if(n == 0) {
-			total = 0;
-		}else {
-			total = 1;
-		}
-		
-		while(n > 0) {
-			total *= n;
-			n--;
+		if(n != 0) {
+			while(n > 0) {
+				total *= n;
+				n--;
+			}
 		}
 		
 		System.out.print("The factorial is: " + total);
